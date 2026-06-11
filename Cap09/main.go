@@ -23,6 +23,6 @@ func puedeExplotar(divisor int) {
 func main() {
 	puedeExplotar(2)
 	puedeExplotar(0)
-	log.Fatal("Esto termina el programa sin defer")
+	log.Fatal("Esto termina el programa sin defer") //sin defer de main
 
 }
